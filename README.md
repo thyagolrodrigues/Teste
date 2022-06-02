@@ -1,6 +1,8 @@
 # Projeto COVID Numbers
 	
-Below I will go through each step of this project. I want to showcase my SQL and Power BI skills, besides show my organization process, and logical thinking when it comes to data projects, so future employers may have an idea of how I work. If you want to see only the SQL and Power BI part, you can skip to the EDA (Exploratory Data Analysis).
+Below I will walk you through each step of this project. I want to showcase my SQL and Power BI skills, as well as show my organization process, and logical thinking when it comes to data projects, so future employers may have an idea of how I work. 
+
+If you want to see only the SQL and Power BI part, you can skip to the EDA (Exploratory Data Analysis).
 
 # 1) Reason of this project:
 Currently (May 2022), COVID occurrences are not the same as a few months ago, so I was wondering what countries were impacted by the virus the most. There are several ways to find out that - news, online dashboards, etc. However, I want to get to this answers by manipulating and organizing data myself, so I can also include this in my portfolio for future employers to see.
@@ -20,9 +22,8 @@ The database comes in the CSV format, but the idea is to use SQL. And to make th
 # 4) EDA (Exploratory Data Analysis):
 The databases from Our World in Data comes well-organized, so this was not a project that had much cleansing/transformation, but there will others in my portfolio to showcase my ability to do that.
 Below you can see the SQL query with the coding. I commented each step (initial look, understanding the columns, etc). I could answer all the questions only by using SQL, but I want to use Power BI for visualization. Hence, I did both, I left the code to answer each of the questions in the query, and later you will see I got to the same results in POWER BI.
-COLOCAR AQUI O CÓDIGO DO SQL: ORGANIZADO, COMENTADO, E COM OS MESMOS RESULTADOS DO POWER BI
 
-Below is the table that I created the view to use in Power BI. However, if you want to see to see how I got to the below, please click on "Clique here to see the whole code" located right after the code box below.
+Below is the table that I created the view to use in Power BI. However, if you want to see to see how I got to the below, please click on "Click here to see the whole code" located right after the code box below.
 
 ``` sql
 
@@ -53,7 +54,7 @@ WHERE
 
 <details>
   <summary>
-    Clique aqui para ver o restante do código
+    Click here to see the whole code
       </summary>
 	
 ``` sql
@@ -140,13 +141,15 @@ WHERE
 
 # - Data Model
 As there is only one table, the only link that there will be is between the COVID-19 database and the Calendar table (created by me in Power BI). I normally create a new table to add all the measures created, I think it is better to organize this way. 
- 
-COLOCAR IMAGEM AQUI
+
+ ![Model](https://user-images.githubusercontent.com/105753824/171749957-cedf60f4-7f6a-4e10-af79-1886e81f0a53.jpg)
 
 # - DAX
 Creation of the calendar table, and some measures for the graphics. The measures were relatively simple. The only one that more challenge was the one to define the quantity of people fully vaccinated… EXPLAIN WHY:
 
-COLOCAR IMAGEM AQUI
+![Medidas](https://user-images.githubusercontent.com/105753824/171749997-631780fe-35c4-4fda-b575-8fa8ed656638.jpg)
+
+![Medida](https://user-images.githubusercontent.com/105753824/171750016-4292b09d-b191-44b5-80c2-0eb8ac255a25.jpg)
  
 # - Dashboard
 As we had clear what questions to answer since the beginning, there was not much to think about the indicators to be used, but I wanted to use different graphics, with colours that make sense with COVID bla bla bla. With only one page with the results in a visual way. In the main page there the cases and vaccination graphics, and I added as Tooltip the vaccination details per country.

@@ -5,7 +5,7 @@
 # Sumário:
 
 <p>
-<a href="6) Conclusion"> Conclusion </a>
+<a href="6)-Conclusion"> Conclusion </a>
 </p>
 	
 # Note:
@@ -141,6 +141,6 @@ As we had clear what questions to answer since the beginning, there was not much
 
  
 
-# 6) Conclusion
+# 6)-Conclusion
 ADD CONCLUSION HERE
 Países que mais se vacinaram... sei la, colocar algo legal aqui

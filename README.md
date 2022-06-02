@@ -1,5 +1,13 @@
 # Projeto COVID Numbers
 
+<p> align COLOCAR SUMÁRIO AQUI </p>
+
+# Sumário:
+
+<p>
+<a href="6) Conclusion"> Conclusion </a>
+</p>
+	
 # Note:
 Below I will go through each step of this project. I want to showcase my SQL and Power BI skills, besides show my organization process, and logical thinking when it comes to data projects, so future employers may have an idea of how I work. If you want to see only the SQL and Power BI part, you can skip to the EDA (Exploratory Data Analysis). 
 
@@ -118,7 +126,7 @@ ORDER BY
 </details>
     
 
-# 6) Power BI (Data Model, DAX, and Dashboard):
+# 5) Power BI (Data Model, DAX, and Dashboard):
 Data Model
 As there is only one table, the only link that there will be is between the COVID-19 database and the Calendar table (created by me in Power BI). I normally create a new table to add all the measures created, I think it is better to organize this way. 
  
@@ -133,6 +141,6 @@ As we had clear what questions to answer since the beginning, there was not much
 
  
 
-# 9) Conclusion
+# 6) Conclusion
 ADD CONCLUSION HERE
 Países que mais se vacinaram... sei la, colocar algo legal aqui

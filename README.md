@@ -141,16 +141,17 @@ WHERE
 # - Data Model
 As there is only one table, the only link that there will be is between the COVID-19 database and the Calendar table (created by me in Power BI). I normally create a new table to add all the measures created, I think it is better to organize this way. 
  
-![Alt text](relative/path/to/img.jpg?raw=true "Title")
+COLOCAR IMAGEM AQUI
 
 # - DAX
 Creation of the calendar table, and some measures for the graphics. The measures were relatively simple. The only one that more challenge was the one to define the quantity of people fully vaccinated… EXPLAIN WHY:
- 
+
+COLOCAR IMAGEM AQUI
  
 # - Dashboard
 As we had clear what questions to answer since the beginning, there was not much to think about the indicators to be used, but I wanted to use different graphics, with colours that make sense with COVID bla bla bla. With only one page with the results in a visual way. In the main page there the cases and vaccination graphics, and I added as Tooltip the vaccination details per country.
 
- 
+COLOCAR IMAGEM AQUI
 
 # 6) Conclusion
 ADD CONCLUSION HERE

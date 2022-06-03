@@ -152,29 +152,25 @@ Creation of the calendar table, and some measures for the graphics. The measures
 
 ![Medidas](https://user-images.githubusercontent.com/105753824/171749997-631780fe-35c4-4fda-b575-8fa8ed656638.jpg)
 
-The reason it was more complex is:
+The reason that getting to the quantity of people fully vaccinated was more complex is: the column "total of people fully vaccinated" was cumulative (every day it summed up the new people vaccinated). So to get to the total by country I had to consider the last date (which is 19-May-2022). However, there were countries that had no vaccinations on this date, so in the measure the result was coming wrongly as zero. The solution that I came up with after some thinking was the below:
 
 ![Medida](https://user-images.githubusercontent.com/105753824/171750016-4292b09d-b191-44b5-80c2-0eb8ac255a25.jpg)
  
 # - Dashboard
-As we had clear what questions to answer since the beginning, there was not much to think about the indicators to be used, but I wanted to use different graphics, with colours that make sense with COVID bla bla bla. With only one page with the results in a visual way. In the main page there the cases and vaccination graphics, and I added as Tooltip the vaccination details per country.
-
-You can see the dashboard on this link:
-
-https://app.powerbi.com/view?r=eyJrIjoiMjA3M2U3NDktYzhmMi00M2JlLWJmY2YtZWYxOWM0MWExYWI5IiwidCI6IjBhMzUzNTNiLTUzZTUtNDI3Yy05YmJkLTU3Yzg3ZmEwZjZlNyJ9
-
-And below you can see a screenshot using a filter and the Tooltip:
+As we had clear what questions to answer since the beginning, there was not much to think about the indicators to be used, but I wanted to have everything in one single page, plus a tooltip. So in the main page there are information about the cases and deaths by country and continent, and a toolip with the vaccination some vaccination details per country was added.
 
 ![Dashboard](https://user-images.githubusercontent.com/105753824/171766151-77b7f96d-18aa-437e-b11a-29eb213f757c.jpg)
 
+You can access the final version of this report by clicking on the link below:
+
+https://app.powerbi.com/view?r=eyJrIjoiMjA3M2U3NDktYzhmMi00M2JlLWJmY2YtZWYxOWM0MWExYWI5IiwidCI6IjBhMzUzNTNiLTUzZTUtNDI3Yy05YmJkLTU3Yzg3ZmEwZjZlNyJ9
+
 # Conclusion
 
-Through the steps above, it was possible to get the answers to all the questions set at the beginning of this project. 
+By doing the steps above, it was possible to get the answers to all the questions set at the beginning of this project. As of 19-May-2022, the total number of cases worldwide was 523M, and the total number of deaths 6M, making the mortality of covid 1.19%, which is lower than I particulaty thought. Also, 6.64% of the population got covid. And currently 4.7 billion have been fully vaccinated, which is almost 60% of the population. It is also possible to see that the mortality has been decresing considerably since the beginning of the pandemic. 
 
-As of 19-May-2022, the total number of cases worldwide was 523M, and 6M deaths, making the mortality of covid 1.19%, which is lower than I particulaty thought initially. 6.64% of the population got covid. And currently 4.7 billion have been fully vaccinated, that is almost 60% of the population. It is also possible to see that the mortality has been decresing considerably since the beginning of the pandemic. 
+The country that had the most quantity of cases is United States, followed by India and Brazil. These 3 are also the countries that had the most quantity of deaths. However, they are far away from being the countries with the highest mortality, whose top 3 has two countries which population fully vaccinated is below 8% (Sudan) and 1% percent (Yemen) - the third country is Peru, but it has 81.24% of its population vaccinated. The country that had the highest percentage of infection was Feroe slands (70%), followed by Andorra (55%) and Gilbratar (54%). 
 
-The country that had the most quantity of cases is United States, followed by India and Brazil. These 3 are also the countries that had the most quantity of deaths. However, they are far away from being the countries with the worst mortality, whose top 3 has two countries which population fully vaccinated is below 8% (Sudan) and 1% percent (Yemen) - the third country is Peru, but it has 81.24% of its population vaccinated. The country had the highest percentage of infection was Feroe slands (70%), followed by Andorra (55%) and Gilbratar (54%). 
+Regarding continents, Europe had the highest number of cases, deaths, and percentage of population infected. Whereas South America had the highest mortality, with 2.23%, and Oceania the lowest, with 0.14%. South America is also the continent that now has highest percentage of population vaccinated (75%). And when it comes to population fully vaccinated, all the continents seem to be on a similar pace (Asia (69%), Europe (66%), North America (64%), Oceania(63%)), except for Africa, which has only 17% of its population vaccinated, but for some reason had the lowest population infected, with 0.86%.
 
-Speaking of continents, Europe had the highest number of cases, deaths, and percentage of population infected. Whereas South America had the worst mortality, with 2.23%, and Oceania the best, with 0.14%. South America is also the continent that now has highest percentage of population vaccinated (75%). When it comes to population fully vaccinated, all the continents seem to be on a similar pace (Asia (69%), Europe (66%), North America (64%), Oceania(63%)), except for Africa, which has only 17% of its population vaccinated, but for some reason had the lowest population infected, with 0.86%.
-
-With the the answers that we planned to answer, above is a few facts that I could take throughout this project. This project was really interesting and I my idea is to re-do it in one year, but in an automated way through some API, so I can have the numbers up to date. In this next COVID project I will go in more depth and make more analysis, such as 
+With the the questions that I proposed to answer, above is a few facts that I could take throughout this project. This project was really interesting and my idea is to make it again in January/2023, but in an automated way through some API, so I can have the numbers up to date daily. In this next COVID project I will also go in more depth and make analysis of other indicators.

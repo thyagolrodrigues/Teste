@@ -2,7 +2,7 @@
 
 Below I will walk you through each step of this project. I want to showcase my SQL and Power BI skills, as well as show my organizational process and logical thinking when it comes to data projects, so future employers may have an idea of how I work.
 
-If you want to see only the SQL and Power BI part, you can skip to the Exploratory Data Analysis by [clicking here](#exploratory-data-analysis)<br/>
+I highly recommend you to see each section of this project, but if you want to see only the SQL and Power BI part, you can skip to the Exploratory Data Analysis by [clicking here](#exploratory-data-analysis)<br/>
 
 # Summary
 

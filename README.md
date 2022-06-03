@@ -154,7 +154,7 @@ Creation of the calendar table, and some measures for the graphics. The measures
 # - Dashboard
 As we had clear what questions to answer since the beginning, there was not much to think about the indicators to be used, but I wanted to use different graphics, with colours that make sense with COVID bla bla bla. With only one page with the results in a visual way. In the main page there the cases and vaccination graphics, and I added as Tooltip the vaccination details per country.
 
-COLOCAR IMAGEM AQUI
+![Dashboard](https://user-images.githubusercontent.com/105753824/171766151-77b7f96d-18aa-437e-b11a-29eb213f757c.jpg)
 
 # 6) Conclusion
 ADD CONCLUSION HERE

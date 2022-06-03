@@ -1,5 +1,5 @@
-# COVID Data Exploration with SQL and Power BI
-	
+# ![COVID_Data_Exploration_with_SQL_and_Power_BI](https://user-images.githubusercontent.com/105753824/171853676-ff15a500-4f77-40c8-a4a5-ab06c566b0f2.png)
+
 Below I will walk you through each step of this project. I want to showcase my SQL and Power BI skills, as well as show my organizational process, and logical thinking when it comes to data projects, so future employers may have an idea of how I work.
 
 If you want to see only the SQL and Power BI part, you can skip to the EDA (Exploratory Data Analysis).
@@ -163,7 +163,7 @@ As we had clear what questions to answer since the beginning, there was not much
 
 You can access the final version of this report by clicking on the link below:
 
-https://app.powerbi.com/view?r=eyJrIjoiMjA3M2U3NDktYzhmMi00M2JlLWJmY2YtZWYxOWM0MWExYWI5IiwidCI6IjBhMzUzNTNiLTUzZTUtNDI3Yy05YmJkLTU3Yzg3ZmEwZjZlNyJ9
+[CLick here to see the dashboard in Power BI Online](https://app.powerbi.com/view?r=eyJrIjoiMjA3M2U3NDktYzhmMi00M2JlLWJmY2YtZWYxOWM0MWExYWI5IiwidCI6IjBhMzUzNTNiLTUzZTUtNDI3Yy05YmJkLTU3Yzg3ZmEwZjZlNyJ9)
 
 # Conclusion
 

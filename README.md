@@ -164,8 +164,12 @@ And below you can see a screenshot using a filter and the Tooltip:
 
 # Conclusion
 
-As of 19-May-2022, the total number of cases was 523M in the world, and 6 deaths, making the mortality of covid 1.19%, which is lower than I particulaty thought initially. 6.64% of the population got covid. And currently 4.7 billion have been fully vaccinated, that is almost 60% of the population. It is also possible to see that the mortality has been decresing considerably since the beginning of the pandemic. 
+Through the steps above, it was possible to get the answers to all the questions set at the beginning of this project. 
 
-The country that had the most quantity of cases is United States, followed by India and Brazil. These 3 are also the countries that had the most quantity of deaths. However, they are far away from being the countries with the worst mortality, whose top 3 has two countries which population fully vaccinated is below 8% and 1% percent. South America had the worst mortality from all the continents, whereas Oceania had the least mortability.
+As of 19-May-2022, the total number of cases worldwide was 523M, and 6M deaths, making the mortality of covid 1.19%, which is lower than I particulaty thought initially. 6.64% of the population got covid. And currently 4.7 billion have been fully vaccinated, that is almost 60% of the population. It is also possible to see that the mortality has been decresing considerably since the beginning of the pandemic. 
 
-Another important fact is that the X countries that had the highest population infeccted 
+The country that had the most quantity of cases is United States, followed by India and Brazil. These 3 are also the countries that had the most quantity of deaths. However, they are far away from being the countries with the worst mortality, whose top 3 has two countries which population fully vaccinated is below 8% (Sudan) and 1% percent (Yemen) - the third country is Peru, but it has 81.24% of its population vaccinated. The country had the highest percentage of infection was Feroe slands (70%), followed by Andorra (55%) and Gilbratar (54%). 
+
+Speaking of continents, Europe had the highest number of cases, deaths, and percentage of population infected. Whereas South America had the worst mortality, with 2.23%, and Oceania the best, with 0.14%. South America is also the continent that now has highest percentage of population vaccinated (75%). When it comes to population fully vaccinated, all the continents seem to be on a similar pace (Asia (69%), Europe (66%), North America (64%), Oceania(63%)), except for Africa, which has only 17% of its population vaccinated, but for some reason had the lowest population infected, with 0.86%.
+
+With the the answers that we planned to answer, above is a few facts that I could take throughout this project. This project was really interesting and I my idea is to re-do it in one year, but in an automated way through some API, so I can have the numbers up to date. In this next COVID project I will go in more depth and make more analysis, such as 

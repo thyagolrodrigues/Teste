@@ -154,6 +154,12 @@ Creation of the calendar table, and some measures for the graphics. The measures
 # - Dashboard
 As we had clear what questions to answer since the beginning, there was not much to think about the indicators to be used, but I wanted to use different graphics, with colours that make sense with COVID bla bla bla. With only one page with the results in a visual way. In the main page there the cases and vaccination graphics, and I added as Tooltip the vaccination details per country.
 
+You can see the dashboard on this link: 
+
+https://app.powerbi.com/view?r=eyJrIjoiMjA3M2U3NDktYzhmMi00M2JlLWJmY2YtZWYxOWM0MWExYWI5IiwidCI6IjBhMzUzNTNiLTUzZTUtNDI3Yy05YmJkLTU3Yzg3ZmEwZjZlNyJ9
+
+And below you can see a screenshot using a filter e the Tooltip:
+
 ![Dashboard](https://user-images.githubusercontent.com/105753824/171766151-77b7f96d-18aa-437e-b11a-29eb213f757c.jpg)
 
 # 6) Conclusion

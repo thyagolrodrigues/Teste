@@ -142,12 +142,12 @@ WHERE
 
 # Power BI (Data Model, DAX, and Dashboard):
 
-# - Data Model
+## - Data Model
 As there is only one table, the only relationship that there will be is between the COVID-19 database and the Calendar table (created by me in Power BI). I normally create a new table to add all the measures created, I think it is better to organize this way. 
 
  ![Model](https://user-images.githubusercontent.com/105753824/171749957-cedf60f4-7f6a-4e10-af79-1886e81f0a53.jpg)
 
-# - DAX
+## - DAX
 Creation of the calendar table, and some measures for the graphics. The measures were relatively simple. The only one that got a bit more challenging was the one to define the number of people fully vaccinated.
 
 ![Medidas](https://user-images.githubusercontent.com/105753824/171749997-631780fe-35c4-4fda-b575-8fa8ed656638.jpg)
@@ -156,7 +156,7 @@ The reason that getting to the number of people fully vaccinated was more comple
 
 ![Medida](https://user-images.githubusercontent.com/105753824/171750016-4292b09d-b191-44b5-80c2-0eb8ac255a25.jpg)
  
-# - Dashboard
+## - Dashboard
 As we had clear what questions to answer since the beginning, there was not much to think about the indicators to be used, but I wanted to have everything on one single page, plus a tooltip. So on the main page, there is information about the cases and deaths by country and continent, and a tooltip with the vaccination details per country was added.
 
 ![Dashboard](https://user-images.githubusercontent.com/105753824/171766151-77b7f96d-18aa-437e-b11a-29eb213f757c.jpg)

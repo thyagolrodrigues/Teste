@@ -1,10 +1,10 @@
-# Projeto COVID Numbers
+# COVID Data Exploration with SQL and Power BI
 	
 Below I will walk you through each step of this project. I want to showcase my SQL and Power BI skills, as well as show my organization process, and logical thinking when it comes to data projects, so future employers may have an idea of how I work. 
 
 If you want to see only the SQL and Power BI part, you can skip to the EDA (Exploratory Data Analysis).
 
-# 1) Reason of this project:
+# Reason of this project:
 Currently (May 2022), COVID occurrences are not the same as a few months ago, so I was wondering what countries were impacted by the virus the most. There are several ways to find out that - news, online dashboards, etc. However, I want to get to this answers by manipulating and organizing data myself, so I can also include this in my portfolio for future employers to see.
 The idea is to answer the below questions by the end of this project:
 -	Total number of cases/deaths globally;
@@ -13,13 +13,13 @@ The idea is to answer the below questions by the end of this project:
 -	Number of people vaccinated as well as percentage that it represents
 It is important to highlight that there are several indicators that might be analyzed. However, the idea of this project is not to go in depth. I will just work on the above points.
 
-# 2) Choosing the database:
+# Choosing the database:
 I chose the COVID-19 database that is available in the Our World in Data website, which is a serious source that I know and have used before for other analysis.
 
-# 3) Data extraction:
+# Data extraction:
 The database comes in the CSV format, but the idea is to use SQL. And to make things more interesting, I divided the main file in two different files, one with the cases/deaths data, and the other with the vaccination data. Hence, I must use more functions in SQL (LEFT JOIN, for instance). Lastly, I imported each file as a table in a SQL database that I created, named PortfolioProject_COVID.
 
-# 4) EDA (Exploratory Data Analysis):
+# EDA (Exploratory Data Analysis):
 The databases from Our World in Data comes well-organized, so this was not a project that had much cleansing/transformation, but there will others in my portfolio to showcase my ability to do that.
 Below you can see the SQL query with the coding. I commented each step (initial look, understanding the columns, etc). I could answer all the questions only by using SQL, but I want to use Power BI for visualization. Hence, I did both, I left the code to answer each of the questions in the query, and later you will see I got to the same results in POWER BI.
 
@@ -137,7 +137,7 @@ WHERE
 </details>
     
 
-# 5) Power BI (Data Model, DAX, and Dashboard):
+# Power BI (Data Model, DAX, and Dashboard):
 
 # - Data Model
 As there is only one table, the only link that there will be is between the COVID-19 database and the Calendar table (created by me in Power BI). I normally create a new table to add all the measures created, I think it is better to organize this way. 
@@ -156,12 +156,16 @@ As we had clear what questions to answer since the beginning, there was not much
 
 You can see the dashboard on this link:
 
-<a href="[http://stackoverflow.com](https://app.powerbi.com/view?r=eyJrIjoiMjA3M2U3NDktYzhmMi00M2JlLWJmY2YtZWYxOWM0MWExYWI5IiwidCI6IjBhMzUzNTNiLTUzZTUtNDI3Yy05YmJkLTU3Yzg3ZmEwZjZlNyJ9)" target="_blank">Click here to see the final version of the dashboard</a>
+https://app.powerbi.com/view?r=eyJrIjoiMjA3M2U3NDktYzhmMi00M2JlLWJmY2YtZWYxOWM0MWExYWI5IiwidCI6IjBhMzUzNTNiLTUzZTUtNDI3Yy05YmJkLTU3Yzg3ZmEwZjZlNyJ9
 
 And below you can see a screenshot using a filter and the Tooltip:
 
 ![Dashboard](https://user-images.githubusercontent.com/105753824/171766151-77b7f96d-18aa-437e-b11a-29eb213f757c.jpg)
 
-# 6) Conclusion
-ADD CONCLUSION HERE
-Países que mais se vacinaram... sei la, colocar algo legal aqui
+# Conclusion
+
+As of 19-May-2022, the total number of cases was 523M in the world, and 6 deaths, making the mortality of covid 1.19%, which is lower than I particulaty thought initially. 6.64% of the population got covid. And currently 4.7 billion have been fully vaccinated, that is almost 60% of the population. It is also possible to see that the mortality has been decresing considerably since the beginning of the pandemic. 
+
+The country that had the most quantity of cases is United States, followed by India and Brazil. These 3 are also the countries that had the most quantity of deaths. However, they are far away from being the countries with the worst mortality, whose top 3 has two countries which population fully vaccinated is below 8% and 1% percent. South America had the worst mortality from all the continents, whereas Oceania had the least mortability.
+
+Another important fact is that the X countries that had the highest population infeccted 

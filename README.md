@@ -2,7 +2,20 @@
 
 Below I will walk you through each step of this project. I want to showcase my SQL and Power BI skills, as well as show my organizational process, and logical thinking when it comes to data projects, so future employers may have an idea of how I work.
 
-If you want to see only the SQL and Power BI part, you can skip to the EDA (Exploratory Data Analysis).
+If you want to see only the SQL and Power BI part, you can skip to the EDA (Exploratory Data Analysis) by [clicking here](#exploratory-data-analysis)<br/>
+
+# Summary
+
+[- Reason of this project](#reason-of-this-project)<br/>
+[- Choosing the database](#choosing-the-database)<br/>
+[- Data extraction](#data-extraction)<br/>
+[- Exploratory Data Analysis](#exploratory-data-analysis)<br/>
+[- Power BI](#power-bi)<br/>
+&ensp;&ensp;&ensp;&ensp;[- Data Model](#data-model)<br/>
+&ensp;&ensp;&ensp;&ensp;[- DAX](#dax)<br/>
+&ensp;&ensp;&ensp;&ensp;[- Dashboard](#dashboard)<br/>
+[- Conclusion](#conclusion)<br/>
+
 
 # Reason of this project:
 Currently (May 2022), COVID occurrences are not the same as a few months ago, so I was wondering what countries were impacted by the virus the most.
@@ -23,7 +36,7 @@ I chose the COVID-19 database that is available on the Our World in Data website
 # Data extraction:
 The database comes in the CSV format, but the idea is to use SQL. And to make things more interesting, I divided the main file into two different files, one with the cases/deaths data, and the other with the vaccination data. Consequently, I must use more functions in SQL (LEFT JOIN, for instance), so I have more knowledge to showcase. Lastly, I imported each file as a table in a SQL database that I created, named PortfolioProject_COVID.
 
-# EDA (Exploratory Data Analysis):
+# Exploratory Data Analysis:
 The databases from Our World in Data come well-organized, so this was not a project that had much cleansing/transformation, but there will be others in my portfolio to showcase my ability to do that.
 
 Below you can see the final query that I created the view to use in Power BI. However, if you want to see how I got to this, please click on "Click here to see the whole code" located right after the code box, so you will see each step (initial look, understanding the columns, etc).
@@ -140,14 +153,14 @@ WHERE
 </details>
     
 
-# Power BI (Data Model, DAX, and Dashboard):
+# Power BI:
 
-## - Data Model
+## Data Model
 As there is only one table, the only relationship that there will be is between the COVID-19 database and the Calendar table (created by me in Power BI). I normally create a new table to add all the measures created, I think it is better to organize this way. 
 
  ![Model](https://user-images.githubusercontent.com/105753824/171749957-cedf60f4-7f6a-4e10-af79-1886e81f0a53.jpg)
 
-## - DAX
+## DAX
 Creation of the calendar table, and some measures for the graphics. The measures were relatively simple. The only one that got a bit more challenging was the one to define the number of people fully vaccinated.
 
 ![Medidas](https://user-images.githubusercontent.com/105753824/171749997-631780fe-35c4-4fda-b575-8fa8ed656638.jpg)
@@ -156,7 +169,7 @@ The reason that getting to the number of people fully vaccinated was more comple
 
 ![Medida](https://user-images.githubusercontent.com/105753824/171750016-4292b09d-b191-44b5-80c2-0eb8ac255a25.jpg)
  
-## - Dashboard
+## Dashboard
 As we had clear what questions to answer since the beginning, there was not much to think about the indicators to be used, but I wanted to have everything on one single page, plus a tooltip. So on the main page, there is information about the cases and deaths by country and continent, and a tooltip with the vaccination details per country was added.
 
 ![Dashboard](https://user-images.githubusercontent.com/105753824/171766151-77b7f96d-18aa-437e-b11a-29eb213f757c.jpg)
